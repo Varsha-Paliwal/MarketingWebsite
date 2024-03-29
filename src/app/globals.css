@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.bg-img1{
+    background-image: url(../image//banner-01.jpg);
+}
+
+.bg-img2{
+    background-image: url(../image//banner-02.jpg);
+}
+.bg-img3{
+    background-image: url(../image//banner-03.jpg);
+}
