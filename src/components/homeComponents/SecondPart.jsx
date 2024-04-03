@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import featured from "../image/featured.jpg";
-import banner from "../image/banner-02.jpg";
-import banner3 from "../image/banner-03.jpg";
+import featured from "@/image/featured.jpg";
+import banner from "@/image/banner-02.jpg";
+import banner3 from "@/image/banner-03.jpg";
 import Link from "next/link";
 const SecondPart = () => {
   return (
-    <div className=" md:flex w-[80%] m-auto">
+    <div className=" mb-8 md:flex w-[80%] m-auto">
       <div className=" md:grid flex sm:justify-center mb-4 md:w-[28%] ">
         <Image src={featured} />
       </div>
@@ -40,9 +40,9 @@ const SecondPart = () => {
           Why is Villa Agency the best ?
         </button>
       </div>
-      <div className=" md:grid flex sm:justify-center mb-4 md:w-[28%] ">
-        <Image  src={banner} />
-        <Image  src={banner3} />
+      <div className="md:grid md:flex sm:justify-center mb-4 md:w-[28%] ">
+        <Image alt="banner" className=" mb-6 " src={banner} />
+        <Image alt="banner" src={banner3} />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import { slides } from "@/staticData/NavBarData";
+import { slides } from "@/staticData/HomeData";
 import React, { useState } from "react";
 
 export const ImagePart = () => {
@@ -39,7 +39,7 @@ export const ImagePart = () => {
               </div>
             </div>
             <div style={{ width: "70%", margin: "0px auto" }}>
-              <div className="m-auto sm:w-[90%] md:w-[40%] lg:w-[40%] text-6xl font-bold text-[#ffffff] mt-4 text-lg">
+              <div className="m-auto sm:w-[90%] md:w-[40%] lg:w-[40%] text-6xl font-bold text-[#ffffff] mt-4">
                 {slide.message}
               </div>
 

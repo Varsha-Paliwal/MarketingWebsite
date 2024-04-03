@@ -1,15 +1,12 @@
-import { Home } from "@/pages/Home";
+import { Properties } from "@/pages/Properties";
 import React from "react";
 
-const page = () => {
-  return (
-    <>
-      <Home />
-    </>
-  );
+const PropertiesPage = () => {
+  return <Properties />;
 };
 
-export default page;
+export default PropertiesPage;
+
 export function generateMetadata({ params }) {
   return {
     title: "Live View Page -  591 villa agency Template",
