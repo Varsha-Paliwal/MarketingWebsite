@@ -1,4 +1,3 @@
-
 export const navBarArray = [
   {
     id: 0,
@@ -23,7 +22,7 @@ export const navBarArray = [
   {
     id: 4,
     title: "Schedule a visit",
-    link: "/ScheduleVisit",
+    link: "//",
   },
 ];
 

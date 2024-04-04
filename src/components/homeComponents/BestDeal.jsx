@@ -19,13 +19,14 @@ export const BestDeal = () => {
           Find Your Best Deal Right Now!
         </div>
 
-        <div className=" justify-between md:space-x-6 flex">
+        <div className="md:w-[40%] w-[100%] mx-auto grid gap-x-2 grid-cols-3 gap-8 md:gap-8 mb-16">
           {buttonName.map((item, i) => {
             return (
+              
               <button
                 key={i}
                 onClick={() => handleTabClick(item.name)}
-                className={`text-center md:text-lg text-xs  text-[#ffffff] flex items-center md:h-[50%] p-2 ${
+                className={`md:p-5 p-2  justify-center md:text-lg text-xs  text-[#ffffff] flex items-center  md:h-[50%]  ${
                   selectedTab == item.name ? "bg-[#f35525]" : "bg-[#1e1e1e]"
                 }  `}
               >

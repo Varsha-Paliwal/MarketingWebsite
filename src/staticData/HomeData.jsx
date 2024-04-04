@@ -313,3 +313,39 @@ export const propertyDetails = [
     otherDetails: property06OtherDetails,
   },
 ];
+
+export const questionAnswerData = [
+  {
+    buttonName:"Best",
+    question: " Best useful links ?",
+    answer1: "Get",
+    answer2: "the best villa",
+    answer3:
+      "website  template in HTML CSS and Bootstrap for your business. TemplateMo provides you the",
+    answer4: " best free CSS templates",
+    answer5: " in the world. Please tell your friends about it.",
+  },
+  {
+    
+    buttonName:"How",
+    question: "  How does this work ?",
+    answer1: "Dolor",
+    answer2: "almesit amet,",
+    answer3:
+      "consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur",
+    answer4: "adipiscing",
+    answer5:
+      "elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    buttonName:"Why",
+    question: " Why is Villa Agency the best ?",
+    answer1: "Dolor",
+    answer2: "almesit amet,",
+    answer3:
+      "consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur",
+    answer4: "adipiscing",
+    answer5:
+      "elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
