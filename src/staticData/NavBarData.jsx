@@ -19,11 +19,6 @@ export const navBarArray = [
     title: "Contact Us",
     link: "/ContactUs",
   },
-  {
-    id: 4,
-    title: "Schedule a visit",
-    link: "//",
-  },
 ];
 
 export const navBarLogoName = "VILLA";

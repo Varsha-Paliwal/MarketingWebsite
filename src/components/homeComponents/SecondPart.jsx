@@ -5,7 +5,11 @@ import featured from "@/image/featured.jpg";
 import banner from "@/image/banner-02.jpg";
 import banner3 from "@/image/banner-03.jpg";
 import Link from "next/link";
-import { questionAnswerData } from "@/staticData/HomeData";
+import {
+  featuredData,
+  featuredText,
+  questionAnswerData,
+} from "@/staticData/HomeData";
 const SecondPart = () => {
   const [selectedTab, setSelectedTab] = useState("Best");
 
@@ -20,10 +24,10 @@ const SecondPart = () => {
 
       <div className=" md:w-[32%] m-auto">
         <h6 className="mb-4 text-[#ee626b] text-1xs uppercase font-semibold">
-          | Featured
+          {featuredData}
         </h6>
         <div className="mb-16 w-[95%] text-3xl  font-semibold">
-          Best Appartment & Sea view
+          {featuredText}
         </div>
 
         {questionAnswerData.map((item, index) => {

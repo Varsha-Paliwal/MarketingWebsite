@@ -1,7 +1,8 @@
 "use client";
-import { buttonName, buttonontent } from "@/staticData/HomeData";
+import { bestDeal, bestRight, buttonName, buttonontent } from "@/staticData/HomeData";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const BestDeal = () => {
   const [selectedTab, setSelectedTab] = useState("Appartment");
@@ -12,11 +13,11 @@ export const BestDeal = () => {
   return (
     <div className="mb-16 p-14 w-[96%] mx-auto bg-[#dee2e647]">
       <div className="mb-12 text-lg font-semibold text-[#dc3545]">
-        | Best Deal
+        {bestDeal}
       </div>
       <div className="md:flex justify-around">
         <div className="mb-12 md:w-[30%] font-semibold text-4xl">
-          Find Your Best Deal Right Now!
+         {bestRight}
         </div>
 
         <div className="md:w-[40%] w-[100%] mx-auto grid gap-x-2 grid-cols-3 gap-8 md:gap-8 mb-16">
@@ -68,7 +69,13 @@ export const BestDeal = () => {
                 <p className=" text-[#4a4a4a] mb-6">{item.paraSecond}</p>
 
                 <button className="justify-center text-sm text-[#ffffff] rounded-full w-1/2 mx-auto flex p-2 bg-[#1e1e1e]">
-                  Schedule a visit
+                <Link
+                onClick={() => setActiveNavLink("/")}
+                href="/"
+                className="font-semibold"
+              >
+                Schedule a visit
+              </Link>
                 </button>
               </div>
             </div>

@@ -5,6 +5,7 @@ import { navBarArray, navBarLogoName } from "@/staticData/NavBarData";
 import MenuButton from "../image/MenuButton.png";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import Loading from "./Loading";
 export const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeNavLink, setActiveNavLink] = useState("/");
@@ -45,6 +46,16 @@ export const Header = () => {
                     {item.title}
                   </Link>
                 ))}
+
+                <button className=" mt-8 mb-8  justify-center text-sm text-[#ffffff] rounded-full  mx-auto flex p-2 bg-[#1e1e1e]">
+                  <Link
+                    onClick={() => setActiveNavLink("/")}
+                    href="/"
+                    className="font-semibold"
+                  >
+                    Schedule a visit
+                  </Link>
+                </button>
               </div>
 
               <div className="md:hidden">
@@ -97,7 +108,9 @@ export const Header = () => {
           </div>
         </nav>
       ) : (
-        <div>loading</div>
+        <div>
+          <Loading />
+        </div>
       )}
     </>
   );

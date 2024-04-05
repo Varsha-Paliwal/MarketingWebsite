@@ -316,7 +316,7 @@ export const propertyDetails = [
 
 export const questionAnswerData = [
   {
-    buttonName:"Best",
+    buttonName: "Best",
     question: " Best useful links ?",
     answer1: "Get",
     answer2: "the best villa",
@@ -326,8 +326,7 @@ export const questionAnswerData = [
     answer5: " in the world. Please tell your friends about it.",
   },
   {
-    
-    buttonName:"How",
+    buttonName: "How",
     question: "  How does this work ?",
     answer1: "Dolor",
     answer2: "almesit amet,",
@@ -338,7 +337,7 @@ export const questionAnswerData = [
       "elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    buttonName:"Why",
+    buttonName: "Why",
     question: " Why is Villa Agency the best ?",
     answer1: "Dolor",
     answer2: "almesit amet,",
@@ -349,3 +348,14 @@ export const questionAnswerData = [
       "elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
+
+export const bestDeal = "| Best Deal";
+export const bestRight = " Find Your Best Deal Right Now!";
+export const homeProperties = "| Properties";
+export const homePropertiesText = " We Provide The Best Property You Like";
+
+export const featuredData = " | Featured";
+export const featuredText = " Best Appartment & Sea view";
+
+export const videoData = "| Video View";
+export const videoText = " Best Appartment & Sea view";
