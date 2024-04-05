@@ -6,9 +6,3 @@ const PropertiesPage = () => {
 };
 
 export default PropertiesPage;
-
-export function generateMetadata({ params }) {
-  return {
-    title: "Live View Page -  591 villa agency Template",
-  };
-}
